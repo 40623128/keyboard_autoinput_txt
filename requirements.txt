@@ -1,0 +1,3 @@
+PyUserInput==0.1.10
+pywin32==303
+keyboard==0.13.5

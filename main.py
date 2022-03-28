@@ -17,6 +17,11 @@ while True:
     if keyboard.read_key() == "shift":
         for i in range(word_number):
             time.sleep(random.random()*time_step)
+            check_list = all_text[i]
+            if all_text[i] == check_list:
+                k.press_key(check_list)
+                k.release_key (check_list)
+            '''
             if all_text[i] == "A":
                 k.press_key('A')
                 k.release_key ('A')
@@ -193,5 +198,6 @@ while True:
                 k.release_key ('-')
             else:
                 print("Button",all_text[i],"is not pressed")
+            '''
         f.close()
         break
