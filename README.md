@@ -12,7 +12,7 @@
 
 ## python version 3.9.7
 
-module install
+記得使用以下指令進行模組安裝
 
 pip -r requirements.txt
 
