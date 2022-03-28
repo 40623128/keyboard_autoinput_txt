@@ -1,5 +1,11 @@
 # keyboard_autoinput_txt
 
-把文章放到 input.txt 中
+運行前確認以下事項
 
-請勿換行
+文章是否放到 input.txt 中
+
+文章請勿換行
+
+輸入法調整為 英文(美國)
+
+保持輸入法為小寫
