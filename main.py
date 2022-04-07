@@ -10,7 +10,7 @@ path = 'input.txt' #Change to the name of the file
 
 k = PyKeyboard()
 time_step = 2/Average_typing_speed
-f = open(path, 'r')
+f = open(path, 'r', encoding='UTF-8')
 all_text = f.read()
 word_number = len(all_text)
 while True:
