@@ -16,7 +16,7 @@
 
 記得使用以下指令進行模組安裝
 
-pip -r requirements.txt
+pip install -r requirements.txt
 
 ## 如何開始?
 
